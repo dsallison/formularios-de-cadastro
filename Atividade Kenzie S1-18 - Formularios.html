@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade S1-18</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <label for="nome">Nome</label>
+                <br>
+                <input type="text" id="nome" required placeholder="Digite seu nome aqui..." name="nome">
+                <br>
+               
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" required placeholder="Digite seu email aqui..." name="email">
+                <br>
+                
+                <br>
+                <label for="descricao">Descrição</label>
+                <br>
+                <textarea id="descricao" placeholder="Fale mais sobre você aqui..." required name="descricao" rows="05" cols="40"></textarea>
+                <br>
+                
+                <br>
+                <label for="modulo">Modulo</label>
+                <br>
+                <select required ="True" id="modulo" name="modulo">
+                    <option value="">Defina seu plano.</option>
+                    <option value="iniciante">Iniciante</option>
+                    <option value="intermediario">Intermediario</option>
+                    <option value="Avançado">Avançado</option>
+                </select><br>
+
+                <br>
+                <label for="senha">Senha</label>
+                <br>
+                <input type="password" required placeholder="Digite sua senha aqui" id="senha" name="senha">
+                <br>
+
+                <br>
+                <label for="confirmar_senha">Confirmar senha</label>
+                <br>
+                <input type="password" required placeholder="Digite sua senha novamente aqui" id="confirmar_senha" name="confirmar_senha"><br>
+
+                <br>
+                <p>Deseja se inscrever em nossa newsletter?</p>
+                                
+                <input type="radio" name="newsletter" id="sim" value="sim">
+                <label for="sim">Sim</label>
+
+                <input type="radio" name="newsletter" id="nao" value="nao">         
+                <label for="nao">Não</label>     
+                <br>
+
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
